@@ -2,11 +2,12 @@
 
 A. Steps run code
 
-  docker-compose run web python ./Postman/All_files.py .
+	docker-compose run web python ./Postman/All_files.py .
   
-  If your machine is Linux, you need to install docker-compose using this link : https://docs.docker.com/compose/install/
+  	If your machine is Linux, you need to install docker-compose using this link : https://docs.docker.com/compose/install/
+	Note : Didn't do volume mapping as I don't know your system folder structure.
 
-From Table I am showning top 5 rows.
+From Each Table I am showning top 5 rows.
 
 B. Schema and Tables 
 
