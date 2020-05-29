@@ -20,16 +20,14 @@ B. Schema and Tables
 C. Points to achieve
 
 	1. Authorization and Token expiration is done.Created Token if it got expired by using its response code.
-	   For Authorization, generating token in the begining of the code and if its requests are over in one minute it goes            sleep for  65 seconds.
+	   For Authorization, generating token in the begining of the code and if it gets 10 requests in one minute 
+	   it goes to sleep for  65 seconds and then it starts again from the last point.
 	2. Pagination is done for each category.
 	3. Rate limiting is also done.
-	4. OOPS are also included
+	4. OOPS are also included.
 	5. Crawled all APIs.
 	
 	Number of entries in the table depends on the API data they provide by that category.
 
 D. Points that not achieved
 	Achieved everything.
-	
-E. 
-	
