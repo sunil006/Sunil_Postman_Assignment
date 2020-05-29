@@ -30,4 +30,5 @@ C. Points to achieve
 	Number of entries in the table depends on the API data they provide by that category.
 
 D. Points that not achieved
+
 	Achieved everything.
