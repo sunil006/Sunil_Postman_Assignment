@@ -7,33 +7,29 @@ A. Steps run code
   	If your machine is Linux, you need to install docker-compose using this link : https://docs.docker.com/compose/install/
 	Note : Didn't do volume mapping as I don't know your system folder structure.
 
-From Each Table I am showning top 5 rows.
+From Table I am showning top 15 rows.
 
 B. Schema and Tables 
 
-	table1 = Animal_cat_facts(id text,text text,type text,upvotes text)
-	table2 = Animal_cats(id text,name text, origin text, affection_level text)
-	table3 = Animal_HTTPcat(para text,Image text)
-	table4 =  Anime_Ghibli(id text,title text, director text, producer text)
-	table5 = Anime_Jikan(Episode_id text,title text, Aired text, Recap text)
-	table6 =  Art_Copperhewit(id text,title text, url text, start_date text,end_date text)
-	table7 =  Art_Harvardmus(id text,objevtcount text, lastupdate text, name text)
-	table8 =  Envi_OpenAQ(country text,Name text, City text, Locations text,Count text)
-	table9 =  Fin_AlphaVintage(Date text,High text, Open text, Low text,Close text)
+	postman(API,Description,Auth,HTTPS,CORS,Link,Category)
+	
+	Only One table created for every category
 
-	No need to Recreate them. Creating tables from python script, which is present in All_files.py .
+	No need to Recreate them. Creating table from python script, which is present in Public_API.py .
 
 C. Points to achieve
 
-	1. Authorization and Token expiration is done, as some API's are providing key.
-	2. Pagination for some API's.
-	3. Rate limiting is taken for some API's.
-
-	Number of entries in each table depends on the API data they provide by that website.
+	1. Authorization and Token expiration is done.Created Token if it got expired by using its response code.
+	   For Authorization, generating token in the begining of the code and if its requests are over in one minute it goes            sleep for  65 seconds.
+	2. Pagination is done for each category.
+	3. Rate limiting is also done.
+	4. OOPS are also included
+	5. Crawled all APIs.
+	
+	Number of entries in the table depends on the API data they provide by that category.
 
 D. Points that not achieved
-
+	Achieved everything.
 	
-
-E.
-	If given more days, I would have crawled all APIs. I have created spider for every API, If there is more time I would have selected another approach for getting data which would have been easy for me.
+E. 
+	
