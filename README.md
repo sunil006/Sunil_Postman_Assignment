@@ -33,7 +33,7 @@ C. Points to achieve
 
 D. Points that not achieved
 
-	Didn't crawled all APIs.
+	
 
 E.
 	If given more days, I would have crawled all APIs. I have created spider for every API, If there is more time I would have selected another approach for getting data which would have been easy for me.
